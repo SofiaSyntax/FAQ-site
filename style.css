@@ -1,0 +1,21 @@
+html {
+  background: #f2f1f4;
+  color: #19171c;
+}
+
+.description {
+  display: none;
+}
+
+.title.active + .description {
+  display: block;
+}
+
+.title,
+.section {
+  border: 1px solid black;
+}
+
+/* Use an "adjacent" CSS selector to select the panel next to 
+an ".active" element and set it to display: block; to make
+ it visible. Read this to learn about the adjacent selector. */
